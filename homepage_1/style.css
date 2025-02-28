@@ -1,8 +1,112 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.navbar{
-    
+
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #1a5fb4;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #1a5fb4;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #76b7fb;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.feature-icon {
+    background-color: #f0f0f0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.feature-title {
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
 }
