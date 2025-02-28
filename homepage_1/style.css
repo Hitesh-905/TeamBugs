@@ -1,112 +1,132 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
 }
 
-body {
-    background-color: #f5f5f5;
+html,body{
+    height:100%;
+    width:100%;
 }
+main{
+    height:100%;
+    width:100%;
+    background-image: url(webimage.jpg);
+}
+nav{
 
-.nav {
-    background-color: #1a5fb4;
-    color: white;
-    padding: 15px 20px;
+    height: 60px;
+    /* background-color : black; */
+    background: linear-gradient(blue violet);
     display: flex;
     align-items: center;
+    margin: 2px;
+    border-radius: 10px;
+    position: sticky;
+    box-shadow: 1px 1px 4px 1px rgb(54, 52, 52);
 }
-
-.nav a {
+nav i {
+    margin: 15px;
+    /* size: 100px; */
     color: white;
-    text-decoration: none;
-    margin-right: 25px;
-    font-size: 14px;
+    font-size: x-large;
 }
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 60vh;
-    text-align: center;
-    padding: 20px;
+nav :nth-child(2){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    color: aqua;
+    
 }
+nav :nth-child(3){
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    margin-left: 20px;
+    color: white;
 
-h1 {
-    color: #4a4a4a;
-    margin-bottom: 15px;
-    font-size: 28px;
 }
-
-p {
-    color: #666;
-    margin-bottom: 25px;
-    font-size: 14px;
-}
-
-.button-group {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 50px;
-}
-
-.btn {
-    padding: 8px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-    font-size: 14px;
-    text-align: center;
-}
-
-.btn-primary {
-    background-color: #1a5fb4;
+nav :nth-child(4){
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    margin-left: 20px;
     color: white;
 }
-
-.btn-secondary {
-    background-color: #76b7fb;
+nav :nth-child(5){
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: black;
+    margin-left: 20px;
     color: white;
 }
-
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
-}
-
-.feature {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 120px;
-}
-
-.feature-icon {
-    background-color: #f0f0f0;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.feature-title {
-    font-size: 14px;
-    color: #4a4a4a;
-    text-align: center;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f5f5f5;
+nav :nth-child(6){
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    margin-left: 50vw;
     padding: 10px;
-    border-top: 1px solid #e0e0e0;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.content :nth-child(1){
+    margin-top: 35vh;
+    color: white;
+    font-size: xx-large;
+}
+.dis{
+    display: flex;
+    justify-content: center;
+}
+.dis :nth-child(1){
+    margin-top: 10px;
+    color: white;
+}
+.dis1{
+    display: flex;
+    justify-content: center;
+}
+.dis1 :nth-child(1){
+    margin-top: 1px;
+    color: white;
+}
+.con1{
+    display: flex;
+    justify-content: center;
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.search-box {
+    width:40vw;
+    padding: 10px;
+    padding-right: 40px; /* Space for the button */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    font-size: 18px;
+}
+.search-button >i{
+    margin-right: 10px;
 }
