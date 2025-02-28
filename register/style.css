@@ -70,9 +70,27 @@ a {
     text-decoration: none;
 }
 
-.input-field i {
-    position: absolute;
-    left: 10px;
-    top: 12px;
-    color: #888;
+.role {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 15px;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
 }
