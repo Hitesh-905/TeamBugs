@@ -97,5 +97,16 @@ input{
     height: 35px;
     border: 0.3px solid;
     border-radius: 4px;
+   
     text-decoration: none;
+}
+input::placeholder{
+  padding-left: 10px;
+    font-size: 12px;
+}
+#t1{
+    font-size: 10px;
+}
+#t2{
+    font-size: 10px;
 }
