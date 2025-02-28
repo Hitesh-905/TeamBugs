@@ -1,37 +1,82 @@
-*{
-    margin:0%;
-    padding:0%;
-    box-sizing:border-box;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-html,body{
-    height:100%;
-    width:100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
-main{
+
+main {
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 255, 0.749),rgba(128, 0, 128, 0.74));
+    background: linear-gradient(rgba(0, 0, 255, 0.749), rgba(128, 0, 128, 0.74));
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.container{
+
+.container {
     height: 90vh;
     width: 28vw;
     background-color: aqua;
     border-radius: 12px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     box-shadow: 1px 1px 4px 1px rgb(72, 71, 71);
-    /* flex-direction: column; */
+    display: inline-table;
 }
-p{
+
+/* p{
     text-align: center;
-}
-.container > :nth-child(1){
+} */
+.container> :nth-child(1) {
     margin-top: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
     font-size: large;
+    margin-left: 110px;
+}
+
+.container> :nth-child(2) {
+    margin-left: 70px;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 7px;
+}
+
+.container> :nth-child(3) {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.input-field {
+    
+    margin-left: 30px;
+    margin: 4px;
+}
+
+.input-field p {
+    margin-top: 25px;
+    margin-left: 10px;
+    /* margin: 5px; */
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    color: #888;
+}
+
+.input-field input {
+    width: 80%;
+    height: 35px;
+}
+
+.input-field i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #888;
 }
