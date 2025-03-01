@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>JavaScript Quiz</h1>
+        <p class="question">What is the capital of France?</p>
+        <div class="options">
+            <button class="option" onclick="checkAnswer('A')">A. Berlin</button>
+            <button class="option" onclick="checkAnswer('B')">B. Madrid</button>
+            <button class="option" onclick="checkAnswer('C')">C. Paris</button>
+            <button class="option" onclick="checkAnswer('D')">D. Rome</button>
+        </div>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

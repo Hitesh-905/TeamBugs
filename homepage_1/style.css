@@ -11,109 +11,123 @@ html,body{
 main{
     height:100%;
     width:100%;
-    background-image: url(webimage.jpg);
+}
+.page1{
+    height:100%;
+    width:100%;
+    background-image: url(default-studocu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(white aqua); */
 }
 nav{
-
-    height: 60px;
-    /* background-color : black; */
-    background: linear-gradient(blue violet);
+    margin: 2px;
+    height:65px;
+    background-color: lightcyan;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    margin: 2px;
-    border-radius: 10px;
-    position: sticky;
-    box-shadow: 1px 1px 4px 1px rgb(54, 52, 52);
 }
-nav i {
-    margin: 15px;
-    /* size: 100px; */
-    color: white;
+nav >.dots > i {
+    margin-left: 20px;
+    height: 50px;
+    font-weight: bolder;
     font-size: x-large;
 }
-nav :nth-child(2){
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:x-large;
-    color: aqua;
+.logo{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin-left: 50px;
+    font-weight: bolder;
+    color: black;
+}
+.feature{
+    display: flex;
+  
+    align-items: center;
+}
+.feature > #child1{
+    margin-left: 45vw;
+}
+.feature > p:hover{
+    border-bottom: 2px solid black;
+    
+   /* background-color: rgba(0, 0, 0, 0.208); */
+}
+.feature > p{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight:bolder;
+    border-color: white;
+}
+.feature > #child2{
+    margin-left: 30px;
+}
+.feature > #child3{
+    margin-left: 30px;
+}
+.singin{
+    margin-left: 40px;
     
 }
-nav :nth-child(3){
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: medium;
-    color: black;
-    margin-left: 20px;
-    color: white;
-
-}
-nav :nth-child(4){
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: medium;
-    color: black;
-    margin-left: 20px;
-    color: white;
-}
-nav :nth-child(5){
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: larger;
-    color: black;
-    margin-left: 20px;
-    color: white;
-}
-nav :nth-child(6){
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: medium;
-    color: white;
-    margin-left: 50vw;
-    padding: 10px;
+.singin p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    padding:15px 20px;
     background-color: green;
     border-radius: 10px;
-    
-}
-.content{
-    display: flex;
-    justify-content: center;
-}
-.content :nth-child(1){
-    margin-top: 35vh;
     color: white;
-    font-size: xx-large;
 }
-.dis{
+.singin p:hover{
+    color: blacks;
+    background-color: aquamarine;
+}
+.welcome{
+    /* height:80vh ; */
+    /* background-color: rgb(255, 255, 255); */
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
-.dis :nth-child(1){
+.welcome > p{
     margin-top: 10px;
-    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold 400;
+    font-size: 36px;
 }
-.dis1{
+.containt{
     display: flex;
     justify-content: center;
 }
-.dis1 :nth-child(1){
-    margin-top: 1px;
-    color: white;
+.containt p{
+    margin-top: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight:400;
 }
-.con1{
+.search{
     display: flex;
     justify-content: center;
 }
 .search-container {
     position: relative;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .search-box {
-    width:40vw;
+    width:45vw;
     padding: 10px;
+    height: 8vh;
     padding-right: 40px; /* Space for the button */
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 3px solid #ccc;
+    border-radius: 14px;
     outline: none;
     color: white;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .search-button {
@@ -129,4 +143,5 @@ nav :nth-child(6){
 }
 .search-button >i{
     margin-right: 10px;
+
 }
